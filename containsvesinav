@@ -1,0 +1,18 @@
+void main() {
+    String gmail = "mertemirgurbuz@gmail.com";
+    if (gmail.contains("@gmail.com"))
+        System.out.println("gmail.com içeriyor");
+    else {
+        System.out.println("gmail.com içermiyor");
+    }
+    double sinav1 = 83;
+    double sinav2 = 73;
+    double ort = (sinav1 * 0.4) + (sinav2 * 6);
+    if (ort >= 75) {
+        System.out.println("geçtin");
+    } else
+    {
+        System.out.println("kaldın");
+    }
+
+}
