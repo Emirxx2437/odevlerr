@@ -1,0 +1,21 @@
+void main()
+{
+    String mail = "mertemirgurbuz@gmail.com";
+    gmailkontrol(mail);
+    String mail2 = "mertemirgurbuz@hotmail.com";
+    gmailkontrol(mail2);
+    String mail3 = "gurbuzmertemir@hotmail.com";
+    gmailkontrol(mail3);
+    String mail4 = "mertemirgurbuz3@gmail.com";
+    gmailkontrol(mail4);
+
+}
+public void gmailkontrol(String mail)
+{
+    if (mail.contains("gmail")) {
+        System.out.println("Bu bir Gmail adresi.");
+    } else  {
+        System.out.println("Bu bir Gmail adresi değil.");
+    }
+
+}
